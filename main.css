@@ -45,17 +45,6 @@ h2:before {
   border-color: transparent #fa4141 transparent transparent;
 }
 
-h2:after {
-  position: absolute;
-  top: calc(50% - 7px);
-  left: -10px;
-  width: 14px;
-  height: 14px;
-  content: '';
-  border-radius: 50%;
-  background: #fff;
-}
-
 img {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 20px;
