@@ -26,21 +26,34 @@ h1 {
 }
 
 h2 {
-  padding: 0.25em 0.5em;/*上下 左右の余白*/
-  color: #494949;/*文字色*/
-  background: transparent;/*背景透明に*/
-  border-left: solid 5px #7db4e6;/*左線*/
+  position: relative;
+  display: inline-block;
+  height: 64px;
+  margin-left: 30px;
+  padding: 1rem 2rem 1rem 3rem;
+  color: #fff;
+  background: #fa4141;
 }
 
-h2::before {
+h2:before {
   position: absolute;
-  left: 0.4em;
-  font-weight: bold;
-  font-family: "Font Awesome 6 Free";
-  content: "\f5ad";
-  top: 0.2em;
-  font-size: 85%;
-  color: var(--theme-color-2);
+  top: 0;
+  left: -30px;
+  content: '';
+  border-width: 32px 30px 32px 0;
+  border-style: solid;
+  border-color: transparent #fa4141 transparent transparent;
+}
+
+h2:after {
+  position: absolute;
+  top: calc(50% - 7px);
+  left: -10px;
+  width: 14px;
+  height: 14px;
+  content: '';
+  border-radius: 50%;
+  background: #fff;
 }
 
 img {
