@@ -36,7 +36,7 @@ h2:before {
   position: absolute;
   top: -150%;
   left: -100px;
-  width: 200px;
+  width: 100px;
   height: 300%;
   content: '';
   -webkit-transform: rotate(25deg);
