@@ -24,17 +24,6 @@ h1 {
   border-left: solid 5px #7db4e6;/*左線*/
 }
 
-h1::after {
-  position: absolute;
-  content: "";
-  left: -7.5px;
-  top: -7.5px;
-  border-width: 0 0 1em 1em;
-  border-style: solid;
-  border-color: #fff #fff var(--theme-color-2);
-  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
-}
-
 h2 {
   position: relative;
   font-size: 200%;
