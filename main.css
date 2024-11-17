@@ -65,7 +65,7 @@ header p {
   background-color: hsla(0, 0%, 100%,0.1);
 }
 main {
-  background-color: hsl(60, 10%, 10%);
+  background-color: #000000;
   line-height: 1.7;
   max-width: 32em;
   padding: 5% calc(50% - 16em) 35%;
