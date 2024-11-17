@@ -70,7 +70,17 @@ h2 {
   padding: 1.5rem 2rem 1.5rem 130px;
   border-top: 3px solid #1D2618;
 }
-
+h2:before {
+  position: absolute;
+  top: -150%;
+  left: -100px;
+  width: 200px;
+  height: 300%;
+  content: '';
+  -webkit-transform: rotate(25deg);
+  transform: rotate(25deg);
+  background: #1D2618;
+}
 h2 span {
   font-size: 30px;
   font-size: 3rem;
@@ -81,7 +91,7 @@ h2 span {
   display: block;
   padding-top: 3px;
   padding-left: 16px;
-  color: #000;
+  color: #FFF;
 }
 
 
