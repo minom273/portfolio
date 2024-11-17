@@ -76,7 +76,7 @@ main {
 $pageTopDecrease: 20px;
 $hrBoxBorderLength: 40px;
 $hrBgColor: #48CFAD;
-$hrColor: #FFFFFF;
+$hrColor: #000;
 $hrSize: 5px;
 
 #pageHr {
