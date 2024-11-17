@@ -11,7 +11,7 @@ html {
   color: #454545;
 }
 
-body {
+ {
   color: #fff;
   margin:0;
   padding:0;
@@ -63,7 +63,7 @@ header * {
 header p {
   background-color: hsla(0, 0%, 100%,0.1);
 }
-main {
+body {
   background-color: #000;
   line-height: 1.7;
   max-width: 32em;
