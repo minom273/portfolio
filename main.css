@@ -4,6 +4,8 @@
 @import url(https://fonts.googleapis.com/css?family=Lusitana);
 
 html {
+  height: 100%;
+  overflow: hidden;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   font-family:'M PLUS Rounded 1c', sans-serif;
