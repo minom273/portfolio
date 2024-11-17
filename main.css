@@ -81,6 +81,18 @@ h2:before {
   transform: rotate(25deg);
   background: #1D2618;
 }
+h2 span {
+  font-size: 30px;
+  font-size: 3rem;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  display: block;
+  padding-top: 3px;
+  padding-left: 16px;
+  color: #000;
+}
 
 
 
