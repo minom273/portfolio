@@ -93,10 +93,12 @@ h2 span {
   padding-left: 16px;
   color: #FFF;
 }
-
-img {
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  border-radius: 20px;
+strong {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 125%;
+  padding: 0 0.2em;
+  color: var(--theme-color-1);
 }
 
 
