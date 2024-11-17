@@ -65,6 +65,20 @@ main {
   z-index: 2;
 }
 
+#page {
+  //border-top: $pageTopDecrease solid $hrColor;
+  background: #37BC9B;
+  position: relative;
+  //margin-top: -($pageTopDecrease);
+  height: 123.45%;
+  top: 90%;
+  padding: 10% 40px;
+  text-align: center;
+
+  a {
+    color: #000;
+  }
+}
 
 
 
