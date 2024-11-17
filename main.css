@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  color: #000;
+  color: #fff;
   margin:0;
   padding:0;
   -webkit-perspective: 1px;
@@ -65,55 +65,12 @@ header p {
   background-color: hsla(0, 0%, 100%,0.1);
 }
 main {
-  background-color: #000000;
+  background-color: hsl(60, 10%, 10%);
   line-height: 1.7;
   max-width: 32em;
   padding: 5% calc(50% - 16em) 35%;
   position: relative;
-  z-index: 2;}
-}
-
-$pageTopDecrease: 20px;
-$hrBoxBorderLength: 40px;
-$hrBgColor: #48CFAD;
-$hrColor: #000;
-$hrSize: 5px;
-
-#pageHr {
-  background: $hrColor;
-  position: relative;
-  height: $hrSize;
-  display: block;
-  right: 0px;
-  left: 0px;
-  top: 90%;
-  z-index: 1;
-
-  > i {
-    margin: -($hrBoxBorderLength/2+$hrSize);
-    border: $hrSize solid $hrColor;
-    height: $hrBoxBorderLength;
-    width: $hrBoxBorderLength;
-    background: $hrBgColor;
-    position: absolute;
-    display: block;
-    left: 50%;
-    top: 50%;
-    @include transform(rotate(45deg));
-    
-    > i {
-      font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-      line-height: $hrBoxBorderLength*0.92;
-      font-size: $hrBoxBorderLength/2;
-      height: $hrBoxBorderLength;
-      width: $hrBoxBorderLength;
-      text-align: center;
-      position: absolute;
-      color: $hrColor;
-      display: block;
-      @include transform(rotate(-45deg));
-    }
-  }
+  z-index: 2;
 }
 
 #page {
@@ -127,7 +84,7 @@ $hrSize: 5px;
   text-align: center;
 
   a {
-    color: #000;
+    color: #FFF;
   }
 }
 
