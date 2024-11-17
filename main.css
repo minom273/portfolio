@@ -96,10 +96,3 @@ ul li {
   list-style-type: none;
 }
 
-ul li::before {
-  content: "★"; /* 星形を表示 */
-  color: gold; /* 星の色を変更 */
-  position: absolute; /* 絶対配置 */
-  left: 0; /* 左側に配置 */
-  font-size: 20px; /* 星の大きさを変更 */
-}
