@@ -93,18 +93,13 @@ ul {
 }
 
 ul li {
-  position: relative;
-  padding: 0 0 0 1.6em;
-  margin: 0;
-  text-indent: 0.5em;
+  list-style-type: none;
 }
 
 ul li::before {
-  position: absolute;
-  left: 0.5em;
-  top: 0.4em;
-  font-size: 75%;
-  font-family: "Font Awesome 6 Free";
-  font-weight: bold;
-  content: "\f816";
+  content: "★"; /* 星形を表示 */
+  color: gold; /* 星の色を変更 */
+  position: absolute; /* 絶対配置 */
+  left: 0; /* 左側に配置 */
+  font-size: 20px; /* 星の大きさを変更 */
 }
