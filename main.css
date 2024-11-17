@@ -64,21 +64,14 @@ main {
   position: relative;
   z-index: 2;
 }
-
-#page {
-  //border-top: $pageTopDecrease solid $hrColor;
-  background: #37BC9B;
-  position: relative;
-  //margin-top: -($pageTopDecrease);
-  height: 123.45%;
-  top: 90%;
-  padding: 10% 40px;
-  text-align: center;
-
-  a {
-    color: #000;
-  }
+h1 {
+  padding: 0.25em 0.5em;/*上下 左右の余白*/
+  color: #494949;/*文字色*/
+  
+  border-left: solid 5px #7db4e6;/*左線*/
 }
+
+
 
 
 
