@@ -88,7 +88,7 @@ body {
 }
 
 h1 {
-  padding: 0.30em 0.5em;/*上下 左右の余白*/
+  padding: 0.25em 0.5em;/*上下 左右の余白*/
   color: #494949;/*文字色*/
   
   border-left: solid 5px #7db4e6;/*左線*/
