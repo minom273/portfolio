@@ -68,7 +68,7 @@ h2 {
   position: relative;
   overflow: hidden;
   padding: 1.5rem 2rem 1.5rem 130px;
-  border-top: 3px solid #FF993F;
+  border-top: 3px solid #FF393B;
 }
 h2:before {
   position: absolute;
@@ -79,7 +79,7 @@ h2:before {
   content: '';
   -webkit-transform: rotate(25deg);
   transform: rotate(25deg);
-  background: #FF993F;
+  background: #FF393B;
 }
 h2 span {
   font-size: 30px;
