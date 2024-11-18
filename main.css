@@ -25,6 +25,7 @@ header {
   -webkit-transform-style: inherit;
   transform-style: inherit;
   width: 100vw;
+  font-family: 'Bookman Old Style', serif;
 }
 header, header:before {
   background: 50% 50% / cover;
