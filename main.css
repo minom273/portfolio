@@ -57,7 +57,7 @@ header p {
   background-color: hsla(0, 0%, 100%,0.1);
 }
 main {
-  background-color: #000 !important;
+  background-color: #2E2B27 !important;
   line-height: 1.7;
   max-width: 32em;
   padding: 5% calc(50% - 16em) 35%;
